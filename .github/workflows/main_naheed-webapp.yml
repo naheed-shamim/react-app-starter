@@ -53,4 +53,4 @@ jobs:
           app-name: 'naheed-webapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BEAD14B3A60A475EA79B6AE0DC7EA49D }}
-          package: .
+          package: build
